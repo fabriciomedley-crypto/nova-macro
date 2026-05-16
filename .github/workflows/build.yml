@@ -24,6 +24,7 @@ jobs:
 
       - name: Build EXE
         run: |
+          dir
           pyinstaller --onefile --windowed --name "NovaMacro" main.py
 
       - name: Upload EXE as artifact
